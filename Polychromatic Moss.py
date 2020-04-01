@@ -2,7 +2,6 @@ import rhinoscriptsyntax as rs
 import math 
 import random as rnd
 
-
 class cell(object):
     
     
@@ -50,10 +49,7 @@ class cell(object):
         
         self.pos = (self.pos[0], self.pos[1], self.pos[2]+1)
 
-    
-    
-    
-        
+
         
 def main():
     
